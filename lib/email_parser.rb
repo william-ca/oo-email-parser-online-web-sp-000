@@ -10,7 +10,7 @@ class EmailAddressParser
   def parse
     @@all.split(' ').chomp(,)
   end
-    
+
 
 
 end
