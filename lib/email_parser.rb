@@ -5,7 +5,12 @@
 
 class EmailAddressParser
 
-  
+  @@all = []
+
+  def parse
+    @@all.split(' ').chomp(,)
+  end
+    
 
 
 end
