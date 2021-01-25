@@ -5,15 +5,10 @@
 
 class EmailAddressParser
 
-  attr_accessor :email_addresses
-  addresses = []
+  attr_accessor :emails
 
-  def initialize
-    addresses << @email_addresses
-  end
-
-  def parse
-    addresses.unique.flatten
+  def initialize(emails)
+    @emails = emails
   end
 
 
