@@ -11,6 +11,10 @@ class EmailAddressParser
     @emails = emails
   end
 
+  def parse
+    @emails.unique
+  end
+
 
 
 end
